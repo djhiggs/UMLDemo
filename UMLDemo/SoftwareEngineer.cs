@@ -7,5 +7,9 @@ namespace UMLDemo
 {
     public class SoftwareEngineer : Profession, IManager, IProgrammer
     {
+        public override void GoToWork()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

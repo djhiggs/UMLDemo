@@ -7,5 +7,14 @@ namespace UMLDemo
 {
     public class NetworkEngineer : Profession, IHardwareFixer, IManager
     {
+        public void FixHardware()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void GoToWork()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

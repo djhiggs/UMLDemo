@@ -11,5 +11,10 @@ namespace UMLDemo
         {
             throw new NotImplementedException();
         }
+
+        public override void GoToWork()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
