@@ -7,6 +7,7 @@ namespace UMLDemo
 {
     public interface IHardwareFixer
     {
+        //Hello there Doug Dimmadome - Jay
         void FixHardware();
     }
 }
